@@ -41,5 +41,17 @@ main {
 }
 
 .answer {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.tags {
+  display: flex;
+  gap: 20px;
+}
+
+.tags p {
+  background-color: grey;
+  border: 2px solid black;
   padding: 10px;
 }
