@@ -71,3 +71,7 @@ main {
   left: 0px;
   padding: 10px;
 }
+
+.highlight {
+  color: blue;
+}
