@@ -6,11 +6,30 @@ header {
   margin-bottom: 30px;
 }
 
-.question-card {
-  border: black 2px solid;
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  gap: 20px;
+}
+
+.question-card {
+  border: black solid 3px;
   height: auto;
+  width: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.bookmarked {
+  color: red;
+}
+
+.question-card i {
+  position: absolute;
+  right: 30px;
+  top: -20px;
+  font-size: 40px;
 }
