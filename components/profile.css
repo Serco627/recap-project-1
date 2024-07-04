@@ -1,7 +1,7 @@
 .picture {
   width: 30%;
   border-radius: 30%;
-  border: 10px solid lightblue;
+  border: 10px solid var(--main);
 }
 
 .me-container {
@@ -16,8 +16,8 @@
 
 .text {
   text-align: center;
-  border: solid lightblue 2px;
+  border: solid var(--main) 2px;
   padding: 5px;
-  box-shadow: 5px 5px 5px lightblue;
+  box-shadow: 5px 5px 5px var(--main);
   margin-bottom: 20px;
 }

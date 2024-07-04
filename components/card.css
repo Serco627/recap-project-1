@@ -9,10 +9,10 @@
   flex-wrap: wrap;
   position: relative;
   padding: 20px;
-  box-shadow: 5px 5px 5px lightblue;
+  box-shadow: 5px 5px 5px var(--main);
 }
 .bookmarked {
-  color: red;
+  color: var(--bookmarked);
 }
 
 .question-card i {
@@ -24,6 +24,7 @@
 
 .question {
   font-size: 20px;
+  font-style: italic;
 }
 
 .answer {
@@ -43,4 +44,9 @@
   background-color: grey;
   border: 2px solid black;
   padding: 10px;
+}
+
+.answer:hover {
+  background-color: var(--main);
+  padding: 25px;
 }
