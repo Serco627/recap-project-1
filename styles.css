@@ -9,3 +9,8 @@ main {
   align-items: center;
   gap: 20px;
 }
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}

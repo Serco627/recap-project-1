@@ -17,3 +17,13 @@ function showAnswer() {
     ? (button2.innerText = "position: static/relative/absolute/fixed/sticky")
     : (button2.innerText = "Show Answer");
 }
+
+const darkModeButton = document.querySelector("[data-js='darkmode']");
+
+function darkmode() {
+  document.body.classList.toggle("dark-mode");
+}
+
+darkModeButton.addEventListener("click", darkmode);
+
+console.log(darkModeButton);

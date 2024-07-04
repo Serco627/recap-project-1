@@ -11,7 +11,7 @@
 }
 
 .highlight {
-  color: darkblue;
+  color: var(--highlight);
 }
 
 button:hover {
