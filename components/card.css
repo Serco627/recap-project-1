@@ -1,0 +1,45 @@
+.question-card {
+  border: black solid 3px;
+  height: 200px;
+  width: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 20px;
+}
+.bookmarked {
+  color: red;
+}
+
+.question-card i {
+  position: absolute;
+  right: 30px;
+  top: -20px;
+  font-size: 40px;
+}
+
+.question {
+  font-size: 20px;
+}
+
+.answer {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.tags {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  left: 15px;
+  bottom: 20px;
+}
+
+.tags p {
+  background-color: grey;
+  border: 2px solid black;
+  padding: 10px;
+}

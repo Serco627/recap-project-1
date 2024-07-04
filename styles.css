@@ -1,85 +1,11 @@
-header {
-  font-size: 20px;
-  border: solid black 3px;
-  text-align: center;
-  background: grey;
-  margin-bottom: 30px;
-}
+@import url("./components/header.css");
+@import url("./components/navbar.css");
+@import url("./components/card.css");
+@import url("components/profile.css");
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
-}
-
-.question-card {
-  border: black solid 3px;
-  height: 200px;
-  width: 500px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-  position: relative;
-  padding: 20px;
-}
-.bookmarked {
-  color: red;
-}
-
-.question-card i {
-  position: absolute;
-  right: 30px;
-  top: -20px;
-  font-size: 40px;
-}
-
-.question {
-  font-size: 20px;
-}
-
-.answer {
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-.tags {
-  display: flex;
-  gap: 20px;
-  position: absolute;
-  left: 15px;
-  bottom: 20px;
-}
-
-.tags p {
-  background-color: grey;
-  border: 2px solid black;
-  padding: 10px;
-}
-
-.navbar {
-  background-color: grey;
-  width: 100%;
-  font-size: 100px;
-  display: flex;
-  justify-content: space-evenly;
-  border: solid black 3px;
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  padding: 10px;
-}
-
-.highlight {
-  color: blue;
-}
-
-a {
-  color: black;
-}
-
-a:visited {
-  color: black;
 }

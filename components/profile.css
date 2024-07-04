@@ -1,0 +1,11 @@
+.picture {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.aboutme {
+  display: flex;
+  gap: ;
+}
