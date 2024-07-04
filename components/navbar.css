@@ -13,6 +13,9 @@
   color: darkblue;
 }
 
+button:hover {
+  background-color: lightblue;
+}
 a {
   color: black;
 }
