@@ -9,6 +9,7 @@
   flex-wrap: wrap;
   position: relative;
   padding: 20px;
+  box-shadow: 5px 5px 5px lightblue;
 }
 .bookmarked {
   color: red;

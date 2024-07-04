@@ -9,9 +9,3 @@ main {
   align-items: center;
   gap: 20px;
 }
-
-.text {
-  text-align: center;
-  border: solid lightblue 2px;
-  padding: 5px;
-}
