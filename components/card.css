@@ -50,3 +50,7 @@
   background-color: var(--main);
   padding: 25px;
 }
+
+.question card.darkmode {
+  color: white;
+}
