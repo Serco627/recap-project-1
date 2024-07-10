@@ -53,6 +53,7 @@
 .answer:hover {
   background-color: var(--main);
   padding: 15px;
+  cursor: pointer;
 }
 
 .bookmarked {
