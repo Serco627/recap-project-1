@@ -32,6 +32,11 @@
   margin-bottom: 20px;
 }
 
+.card-answer {
+  display: none;
+  font-style: italic;
+}
+
 .tags {
   display: flex;
   gap: 20px;
@@ -49,8 +54,4 @@
 .answer:hover {
   background-color: var(--main);
   padding: 25px;
-}
-
-.question card.darkmode {
-  color: white;
 }
